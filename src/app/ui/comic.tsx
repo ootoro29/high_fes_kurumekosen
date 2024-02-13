@@ -13,9 +13,9 @@ export default function Comic({name, size}:{name:string, size:number}){
                 {(() => {
                     const items = [];
                     for (let i = 1; i <= size; i++) {
-                        items.push(<Image key = {i} className=" py-2 w-auto" width = {640} height={360} src = {`/manga/${name}/P${i}.png`} alt = "" priority={true} />)
+                        items.push(<Suspense fallback = {<Loading />} ><Image key = {i} className=" py-2 w-auto" width = {640} height={360} src = {`/manga/${name}/P${i}.png`} alt = "" priority={true} /></Suspense>)
                     }
-                    return <Suspense fallback = {<Loading />} ><ul>{items}</ul></Suspense>;
+                    return <ul>{items}</ul>;
                 })()}
         </div>
     );
