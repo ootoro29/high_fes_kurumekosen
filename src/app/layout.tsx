@@ -15,12 +15,16 @@ export const metadata: Metadata = {
 export default function Layout({children}: {children: React.ReactNode}){
     
     return(
-        <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
-            <div className = "w-full bg-slate-50 flex-none md:w-64">
-              
-              <SideNav />
-            </div>
-            <div className="flex-grow p-3 md:overflow-y-auto md:p-6 bg-slate-100">{children}</div>
-        </div>
+      <html lang = "ja">
+        <body>
+          <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
+              <div className = "w-full bg-slate-50 flex-none md:w-64">
+                
+                <SideNav />
+              </div>
+              <div className="flex-grow p-3 md:overflow-y-auto md:p-6 bg-slate-100">{children}</div>
+          </div>
+        </body>
+      </html>
     )
 }
