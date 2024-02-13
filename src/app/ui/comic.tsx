@@ -10,15 +10,13 @@ import Loading from "./loading";
 export default function Comic({name, size}:{name:string, size:number}){
     return (
         <div className="">
-            <Suspense fallback = {<Loading />} >
                 {(() => {
                     const items = [];
                     for (let i = 1; i <= size; i++) {
                         items.push(<Image key = {i} className=" py-2 w-auto" width = {640} height={360} src = {`/manga/${name}/P${i}.png`} alt = "" priority={true} />)
                     }
-                    return <ul>{items}</ul>;
+                    return <Suspense fallback = {<Loading />} ><ul>{items}</ul></Suspense>;
                 })()}
-            </Suspense>
         </div>
     );
 }
