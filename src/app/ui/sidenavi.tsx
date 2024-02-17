@@ -12,7 +12,7 @@ const links = [
       icon:"数"
     },
     { name: 'STG', href: '/stg',icon:"射"},
-    { name: 'その他', href: '/others',icon:"他"},
+    //{ name: 'その他', href: '/others',icon:"他"},
     
   ];
   

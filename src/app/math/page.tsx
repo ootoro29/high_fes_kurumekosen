@@ -46,13 +46,17 @@ const comics:comic[] = [
 export default function Math(){
     return(
         <>
+            <h1 className="text-3xl font-bold">数理アート解説漫画</h1>
+            <p>数理アートという名の数学を使ったデジタルアートを紹介していきます。</p>
             {comics.map((comic) =>{
                 return(
-                    <div key = {comic.id}>
+                    <div className="indent-4" key = {comic.id}>
                         <Comic_Cloum comic = {comic}/>
                     </div>
                 );
             })}
+            <h1 className="text-3xl font-bold">数学解説漫画</h1>
+            <p>数理アートを理解するための数学の諸概念を解説する漫画です。</p>
         </>
     );
 }
