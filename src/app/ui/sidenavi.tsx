@@ -11,7 +11,8 @@ const links = [
       href: '/math',
       icon:"数"
     },
-    { name: 'STG', href: '/stg',icon:"射"},
+    { name: 'MAGUDIAL', href: '/magudial',icon:"M"},
+    { name: 'フリーランチ', href: '/freelunch',icon:"フ"},
     //{ name: 'その他', href: '/others',icon:"他"},
     
   ];

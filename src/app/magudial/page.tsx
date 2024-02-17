@@ -1,8 +1,7 @@
 export default function STG(){
     return(
         <>
-           <h1>MAGUDIAL</h1>
-           <h1>フリーランチ</h1>
+           <h1 className="w-full text-3xl font-bold">MAGUDIAL</h1>
         </>
     );
 }
