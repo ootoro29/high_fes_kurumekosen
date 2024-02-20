@@ -11,7 +11,7 @@ export default function STG(){
 
             <div>
                 <p className="font-bold">↓プレイ中の画面↓</p>
-                <Image className=" py-2 w-auto max-w-[640px]" width = {640} height={360} src = {`/game2-op.jpg`} alt = "" priority={true} />
+                <Image className=" py-2 w-auto" width = {640} height={360} src = {`/game2-op.jpg`} alt = "" priority={true} />
             </div>
 
             <div className="py-2">

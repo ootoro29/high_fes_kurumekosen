@@ -9,11 +9,11 @@ export default function STG(){
             </div>
             <div>
                 <p className="font-bold">↓タイトル画面↓</p>
-                <Image className=" py-2 w-auto max-w-[640px]" width = {640} height={360} src = {`/game1.png`} alt = "" priority={true} />
+                <Image className=" py-2 w-auto" width = {640} height={360} src = {`/game1.png`} alt = "" priority={true} />
             </div>
             <div>
                 <p className="font-bold">↓プレイ中の画面↓</p>
-                <Image className=" py-2 w-auto max-w-[640px]" width = {640} height={360} src = {`/game1-op.png`} alt = "" priority={true} />
+                <Image className=" py-2 w-auto" width = {640} height={360} src = {`/game1-op.png`} alt = "" priority={true} />
             </div>
             <div className="py-2">
                 <h1 className="w-full text-2xl font-bold indent-3">操作方法</h1>
