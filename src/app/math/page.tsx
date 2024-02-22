@@ -39,6 +39,12 @@ const comics:comic[] = [
         description: "人工知能(深層学習)で関数近似をします。",
         href: "/math/deeplearning"
     },
+    {
+        id: 6,
+        title: '強化学習＆深層強化学習',
+        description: "試行錯誤するAIについてです",
+        href: "/math/reinforcementlearning"
+    },
 ];
 
 

@@ -20,6 +20,12 @@ export default function STG(){
             </div>
 
             <div className="py-2">
+                <h1 className="w-full text-2xl font-bold indent-3">操作方法</h1>
+                <iframe className="aspect-video w-full max-w-[640px]" width="560" height="315" src="https://www.youtube.com/embed/vvwMaUk83pA?si=uUWT30Fpo5bTykag" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                <p className="text-base">VOICEVOX:ずんだもん 春日部つむぎ</p>
+            </div>
+
+            <div className="py-2">
                 <h1 className="w-full text-2xl font-bold indent-3">猫ミーム</h1>
                 <iframe className="aspect-video w-full max-w-[640px]" width="560" height="315" src="https://www.youtube.com/embed/G4_Ck977UBk?si=aJ9Vi0U9eEMXUuNK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </div>
